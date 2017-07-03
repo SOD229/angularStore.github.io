@@ -27,12 +27,13 @@ var ProductoService = (function () {
     }
     ProductoService.prototype.getProductos = function () {
         //return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos')
-        return this.http.get('https://sod229.github.io/angularStore.github.io/productos')
+        return this.http.get('https://sod229.github.io/angularStore.github.io/products/productos')
             .toPromise().then(function (resp) { return resp.json(); })
             .catch(this.error);
     };
     ProductoService.prototype.getProducto = function (id) {
-        return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos/' + id)
+        //return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos/'+id)
+        return this.http.get('https://sod229.github.io/angularStore.github.io/products/productos/' + id)
             .toPromise().then(function (resp) { return resp.json(); })
             .catch(this.error);
     };

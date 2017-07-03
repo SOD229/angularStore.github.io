@@ -26,21 +26,17 @@ var ProductoService = (function () {
         this.http = http;
     }
     ProductoService.prototype.getProductos = function () {
-        return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos')
+        //return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos')
+        return this.http.get('./productos')
             .toPromise().then(function (resp) { return resp.json(); })
             .catch(this.error);
     };
     ProductoService.prototype.getProducto = function (id) {
         return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos/' + id)
             .toPromise().then(function (resp) { return resp.json(); })
-            .catch(this.msjeError);
+            .catch(this.error);
     };
-    ProductoService.prototype.error = function () {
-        return this.http.get('./productos')
-            .toPromise().then(function (resp) { return resp.json(); })
-            .catch(this.msjeError);
-    };
-    ProductoService.prototype.msjeError = function () { alert("Error leyendo información de http://academica.uaslp.mx"); };
+    ProductoService.prototype.error = function () { alert("Error leyendo información de http://academica.uaslp.mx"); };
     ProductoService = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Injectable */])(), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === 'function' && _a) || Object])

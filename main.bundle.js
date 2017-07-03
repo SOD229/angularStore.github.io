@@ -33,7 +33,7 @@ var ProductoService = (function () {
     };
     ProductoService.prototype.getProducto = function (id) {
         //return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos/'+id)
-        return this.http.get('https://sod229.github.io/angularStore.github.io/products/productos/' + id)
+        return this.http.get('https://sod229.github.io/angularStore.github.io/products/' + id)
             .toPromise().then(function (resp) { return resp.json(); })
             .catch(this.error);
     };

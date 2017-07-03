@@ -27,7 +27,7 @@ var ProductoService = (function () {
     }
     ProductoService.prototype.getProductos = function () {
         //return this.http.get('http://academica.uaslp.mx/apps/servicios/tienda/servicio.svc/productos')
-        return this.http.get('./productos')
+        return this.http.get('https://sod229.github.io/angularStore.github.io/productos')
             .toPromise().then(function (resp) { return resp.json(); })
             .catch(this.error);
     };

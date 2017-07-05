@@ -1,15 +1,15 @@
 webpackJsonp([2,4],{
 
-/***/ 396:
+/***/ 399:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(667);
+var content = __webpack_require__(671);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // add the styles to the DOM
-var update = __webpack_require__(699)(content, {});
+var update = __webpack_require__(707)(content, {});
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -27,22 +27,22 @@ if(false) {
 
 /***/ }),
 
-/***/ 667:
+/***/ 671:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(668)();
+exports = module.exports = __webpack_require__(672)();
 // imports
 
 
 // module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.titulo{\n    color:white;\n    margin-top: 35px;\n}\n\n.imgTitulo{\n    width: 128px;\n    height: 128px;\n}\n\n.imgMenu{\n    width: 24px;\n    height: 24px;\n}\n\n.container-primary{\n    background-color: #95A5A5;\n    overflow: hidden;\n    padding: 15px;\n}\n\n.navbar{\n    margin-bottom: 0px;\n}\n\n.row.display-flex {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\n\n.row.display-flex > [class*='col-'] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}", ""]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n.titulo{\n    color:white;\n    margin-top: 35px;\n}\n\n.imgTitulo{\n    width: 128px;\n    height: 128px;\n}\n\n.imgMenu{\n    width: 24px;\n    height: 24px;\n}\n\n.container-primary{\n    background-color: #95A5A5;\n    overflow: hidden;\n    padding: 15px;\n    min-height: 530px;\n}\n\n.navbar{\n    margin-bottom: 0px;\n}\n\n.row.display-flex {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n}\n\n.row.display-flex > [class*='col-'] {\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-direction: column;\n          flex-direction: column;\n}\n\nfooter {\n    text-align: center;\n    /*position: absolute;\n    bottom: 0;*/\n    width: 100%;\n    height: 50px;\n    color: white;\n    margin: 0px;\n    display: table;\n}\n\nfooter p{\n    text-align: center;\n    display: table-cell;\n\tvertical-align: middle;\n}\n", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 668:
+/***/ 672:
 /***/ (function(module, exports) {
 
 /*
@@ -99,7 +99,7 @@ module.exports = function() {
 
 /***/ }),
 
-/***/ 699:
+/***/ 707:
 /***/ (function(module, exports) {
 
 /*
@@ -352,13 +352,13 @@ function updateLink(linkElement, obj) {
 
 /***/ }),
 
-/***/ 703:
+/***/ 711:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(396);
+module.exports = __webpack_require__(399);
 
 
 /***/ })
 
-},[703]);
+},[711]);
 //# sourceMappingURL=styles.bundle.map

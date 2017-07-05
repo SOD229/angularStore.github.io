@@ -956,7 +956,7 @@ module.exports = "<a class=\"list-group-item\" *ngIf=\"pedido!=null && pedido!=u
 /***/ 689:
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"page-header\">\n  <h1>¡Bienvenido a Tienda en Línea!</h1>\n</div>\n<div class=\"row display-flex\">\n  <div class=\"col-xs-12 col-md-4 imgContainer\">\n    <img src=\"assets/logoUASLP.png\" alt=\"LogoUASLP\" class=\"img-responsive\">\n  </div>\n  <div class=\"col-xs-12 col-md-8 text-center\">\n    <h2>Universidad Autónoma de San Luis Potosí</h2>\n    <h2>Facultad de Ingeniería</h2>\n    <h2>Proyecto Tienda en Línea</h2>\n    <h2>Desarrollado para el curso</h2>\n    <h2><strong>\"Sitios interactivos con AngularJs\"</strong></h2>\n    <h3>Junio 2017</h3>\n  </div>\n</div>\n  \n"
+module.exports = "<div class=\"page-header\">\n  <h1>¡Bienvenido a Tienda en Línea!</h1>\n</div>\n<div class=\"row display-flex\">\n  <div class=\"col-xs-12 col-md-4 imgContainer\">\n    <img src=\"assets/LogoUASLP.png\" alt=\"LogoUASLP\" class=\"img-responsive\">\n  </div>\n  <div class=\"col-xs-12 col-md-8 text-center\">\n    <h2>Universidad Autónoma de San Luis Potosí</h2>\n    <h2>Facultad de Ingeniería</h2>\n    <h2>Proyecto Tienda en Línea</h2>\n    <h2>Desarrollado para el curso</h2>\n    <h2><strong>\"Sitios interactivos con AngularJs\"</strong></h2>\n    <h3>Junio 2017</h3>\n  </div>\n</div>\n  \n"
 
 /***/ }),
 
